@@ -12,9 +12,7 @@
     height: 100%;
     width: 100%;
     background: linear-gradient(-135deg, #c850c0, #4158d0);
-    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
-    /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+   
     background: #000;
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
@@ -26,7 +24,7 @@
     position: absolute;
     z-index: 2;
     right: 20px;
-    /* left: 20px; */
+   
     top: 20px;
     height: 50px;
     width: 50px;
@@ -77,11 +75,11 @@
     content: "";
     background: #fff;
      background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    
     width: 104%;
     height: 110%;
     left: -2%;
-    top: -5%; /* if the font is 'Oswald'*/
+    top: -5%; 
     border-radius: 50px;
     transform: scaleY(0);
     z-index: -1;
@@ -100,14 +98,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
   body{
-    background:rgb(203, 203, 70);
+    background:rgb(91, 91, 77);
     font-family: 'Raleway', sans-serif;
   }
   
   span{
     position: absolute;
-    top: 50%;
-    left: 55%;
+    top: 20%;
+    left: 25%;
     transform: translate(-50%, -50%);
     font-size:120px;
     letter-spacing:0.1em;
@@ -119,3 +117,38 @@
               20px 20px #000000;
               z-index: -1;
   }
+p{
+  position: absolute;
+  top: 40%;
+  font-size: 20px;
+  left: 5%;
+  font-style: oblique;
+
+}
+img {
+  position: absolute;
+  top: 20%;
+z-index: -1;
+  width: 600px;
+  height: 500px;
+  left: 55%;
+  
+}
+h1{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  font-size: 60px;
+}
+h3 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-size: 30px;
+}
+h2 {
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+  font-size: 30px;
+}

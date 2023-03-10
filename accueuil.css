@@ -22,6 +22,7 @@
   #active:checked ~ .gang{
     clip-path: circle(75%);
   }
+  
   .menu-btn{
     position: absolute;
     z-index: 2;

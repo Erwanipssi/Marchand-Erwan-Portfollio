@@ -97,4 +97,44 @@
   input[type="checkbox"]{
     display: none;
   }
+
+  h1 {
+    position: absolute;
+    top: 15%;
+    color: #000;
+    font-style: oblique;
+    left: 37%;
+    font-size: 50px;
+    z-index: -1;
+  }
+  h2 {
+    position: absolute;
+    top: 29%;
+    color: #000;
+    font-style: oblique;
+    left: 30%;
+    font-size: 40px;
+    z-index: -1;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    font-style: inherit;
+    left: 15%;
+    z-index: -1;
+  }
+  h3 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    font-size: 40px;
+    z-index: -1;
+  }
   
+  .techno {
+    position: absolute;
+    top: 70% ;
+  }
+  body {
+    background-color: #2a3984;
+  }

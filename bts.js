@@ -11,7 +11,7 @@ var back = document.querySelector('.back');
 var showFrontBtn = document.querySelector('#show-front');
 var showBackBtn = document.querySelector('#show-back');
 
-// Figcaption Hover Preview
+
 caption.addEventListener('mouseover', function () {
   var contentHeight = detailsContent.offsetHeight;
   details.style.height = contentHeight + 10 + 'px';
@@ -23,7 +23,7 @@ caption.addEventListener('mouseout', function () {
   badge.innerHTML = '<i class="fas fa-plus-square"></i>';
 });
 
-// Lazy Load Figure Image
+
 highResImage.onload = function () {
   lowResImage.src = highResImage.src;
 }
@@ -31,7 +31,7 @@ setTimeout(function () {
  highResImage.src = 'https://www.cidj.com/sites/default/files/2019-10/BTS-SIO.jpg';
 }, 1000);
 
-// Card Flipping
+
 showBackBtn.addEventListener('click', function () {
   back.style.transform = "perspective( 2000px ) rotateY( 0deg )";
   front.style.transform = "perspective( 2000px ) rotateY( -180deg )";

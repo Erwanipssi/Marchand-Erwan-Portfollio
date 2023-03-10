@@ -97,3 +97,38 @@
   input[type="checkbox"]{
     display: none;
   }
+  body {
+    background-color: #856282;
+  }
+  h1 {
+    position: absolute;
+    top: 15%;
+    color: #000;
+    font-style: oblique;
+    left: 40%;
+    font-size: 50px;
+    z-index: -1;
+  }
+  h2 {
+    position: absolute;
+    top: 29%;
+    color: #000;
+    font-style: oblique;
+    left: 30%;
+    font-size: 40px;
+    z-index: -1;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    font-style: inherit;
+    left: 15%;
+    z-index: -1;
+  }
+  h3 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    font-size: 40px;
+    z-index: -1;
+  }
