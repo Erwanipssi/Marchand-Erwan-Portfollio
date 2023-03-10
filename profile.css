@@ -108,7 +108,7 @@
 }
 
 body {
-	background-color: #d1c23a;
+    background:rgb(91, 91, 77);
 	font-family: Montserrat, sans-serif;
 	
 	display: flex;

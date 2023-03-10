@@ -136,6 +136,7 @@
   }
   
   body {
+    background:rgb(91, 91, 77);
     margin: 0;
     display: flex;
     width: 100vw;
