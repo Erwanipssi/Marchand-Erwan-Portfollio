@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
   }
   .gang {
     position: fixed;
@@ -151,4 +152,13 @@ h2 {
   bottom: 0%;
   left: 5%;
   font-size: 30px;
+}
+
+.projets {
+  position: absolute;
+  top: 700px;
+  left: 10%;
+  text-decoration: none;
+  color: #0c0c0c;
+  z-index: -1;
 }

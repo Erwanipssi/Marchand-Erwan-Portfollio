@@ -13,7 +13,7 @@
   width: 100%;
   background: linear-gradient(-135deg, #c850c0, #4158d0);
  
-  background: #000;
+  background: #000000;
   clip-path: circle(25px at calc(100% - 45px) 45px);
   transition: all 0.3s ease-in-out;
 }
@@ -92,11 +92,11 @@
   content: "";
   background: #fff;
    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
-  /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+  
   width: 104%;
   height: 110%;
   left: -2%;
-  top: -5%; /* if the font is 'Oswald'*/
+  top: -5%; 
   border-radius: 50px;
   transform: scaleY(0);
   z-index: -1;

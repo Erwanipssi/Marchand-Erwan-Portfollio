@@ -15,6 +15,7 @@ var showBackBtn = document.querySelector('#show-back');
 caption.addEventListener('mouseover', function () {
   var contentHeight = detailsContent.offsetHeight;
   details.style.height = contentHeight + 10 + 'px';
+  details.style.top = contentTop + 10 + 'px'
   badge.innerHTML = '<i class="fas fa-minus-square"></i>';
 });
 

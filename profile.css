@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
   }
   .gang {
     position: fixed;
@@ -15,7 +18,7 @@
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
     /* clip-path: circle(25px at calc(0% + 45px) 45px); */
-    background: #000;
+    background: #0e0e0e;
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
   }
@@ -34,12 +37,11 @@
     line-height: 50px;
     border-radius: 50%;
     font-size: 20px;
-    color: #fff;
     cursor: pointer;
     background: linear-gradient(-135deg, #c850c0, #4158d0);
      background: linear-gradient(375deg, #1cc7d0, #2ede98); 
     background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); 
-    background: #000;
+    background: #ffffff;
     transition: all 0.3s ease-in-out;
   }
   #active:checked ~ .menu-btn{
@@ -67,7 +69,7 @@
     padding: 5px 30px;
     color: #fff;
     border-radius: 50px;
-    background: #000;
+    background: #0e0e0e;
     position: relative;
     line-height: 50px;
     transition: all 0.3s ease;
@@ -97,130 +99,196 @@
   input[type="checkbox"]{
     display: none;
   }
+  
   body {
-    background-color: #856282;
+    background-color:rgb(82, 27, 27);
+    overflow-x: hidden;
+    max-width: 1920px;
+    height: 100%;
+  }
+  *,
+  ::before,
+  ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .title h1 {
+    position: absolute;
+    top: 5%;
+    left: 41%;
+  }
+  
+  .block1 {
+    position: absolute;
+    width: 870px;
+    height: 100%;
+    background-color: #161515;
+    z-index: -1;
+
+  }
+  .block2 {
+    position: absolute;
+    width: 300px;
+   height: 100%;
+    background-color: #0e0e0e;
+  z-index: -1;
+    right: 0;
+
+  }
+ 
+  .block1 a {
+
+    position: relative;
+    top: 40px;
+    left: 56%;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  .block1 img {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    width: auto;
+    
   }
 
-  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-* {
-	box-sizing: border-box;
-}
+  .block1 h1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 90px;
+    color: #efddfb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+  }
+  .block1 p{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: #efddfb;
+  }
+  .block2 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 15%;
+    right: 15px;
+  }
+  .block2 .linkedin {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:40%;
+    right: 8px;
+  }
+  .block2 .mail {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:65%;
+    right: 8px;
+  }
+  .about h1{
+    position: absolute;
+    top: 800px;
+    right: 38%;
+    font-size: 50px;
 
-body {
-    background:rgb(91, 91, 77);
-	font-family: Montserrat, sans-serif;
-	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  }
 
-	min-height: 100vh;
-	margin: 0;
-}
-
-h3 {
-	margin: 10px 0;
-}
-
-h6 {
-	margin: 5px 0;
-	text-transform: uppercase;
-}
-
-p {
-	font-size: 14px;
-	line-height: 21px;
-}
-
-.card-container {
-	background-color: #000000;
-	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #B3B8CD;
-	padding-top: 30px;
-	position: relative;
-	width: 350px;
-	max-width: 100%;
-	text-align: center;
-    border-radius: 10px;
-    z-index: -1;
-}
-
-.primary a {
-    text-decoration: none;
-}
-.primary ghost a {
-    text-decoration: none;
-}
-.card-container .round {
-	border: 1px solid #03BFCB;
-	border-radius: 50%;
-	padding: 7px;
-}
-
-button.primary {
-	background-color: #03BFCB;
-	border: 1px solid #03BFCB;
-	border-radius: 3px;
-	color: #231E39;
-	font-family: Montserrat, sans-serif;
-	font-weight: 500;
-	padding: 10px 25px;
-}
-
-button.primary.ghost {
-	background-color: transparent;
-	color: #02899C;
-}
-
-.skills {
-	background-color: #1F1A36;
-	text-align: left;
-	padding: 15px;
-	margin-top: 30px;
-}
-
-.skills ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.skills ul li {
-	border: 1px solid #2D2747;
-	border-radius: 2px;
-	display: inline-block;
-	font-size: 12px;
-	margin: 0 7px 7px 0;
-	padding: 7px;
-}
-
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
+  .about p {
+    position: absolute;
+    top: 900px;
    
+  }
 
-
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
+  .cv h1 {
+    position: absolute;
+    top: 1500px;
+    right: 45%; 
+  }
+  .cv img {
+  position: absolute;
+  width: 30%;
+  left: 37%;
+  
+  top: 1550px;
+ 
+  }
+  button  a {
+    position: absolute;
     text-decoration: none;
-}
+    border-radius: 10px;
+   background-color:rgb(82, 27, 27);;
+    color: rgb(0, 0, 0); 
+    top: 1500px;
+    left: 60%;
+    font-size: 20px;
+ 
+  }
+
+
+  .comp h1 {
+    position: absolute;
+    top: 1000px;
+    left: 37%;
+
+  }
+
+  
+  .comp .html {
+    position: absolute;
+    width: 200px;
+    top: 1050px;
+    left: 40%;
+  }
+  .comp .css {
+    position: absolute;
+    width: 200px;
+    top: 1100px;
+    left: 40%;
+  }
+  .comp .php {
+    position: absolute;
+    width: 170px;
+    top: 1150px;
+    left: 40%;
+  }
+  .comp .js {
+    position: absolute;
+    width: 160px;
+    top: 1200px;
+    left: 40%;
+  }
+  .comp .git {
+    position: absolute;
+    width: 150px;
+    top: 1250px;
+    left: 40%;
+  }
+  .comp .python {
+    position: absolute;
+    width: 100px;
+    top: 1300px;
+    left: 40%;
+  }
+  .comp .gant {
+    position: absolute;
+    width: 200px;
+    top: 1350px;
+    left: 40%;
+    
+  }
+  .comp .mysql {
+    position: absolute;
+    width: 170px;
+    top: 1400px;
+    left: 40%;
+  }
