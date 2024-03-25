@@ -2,55 +2,251 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./accueuil.css">
-    <script src="acc.js" defer></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>projet</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="projet.css">
 </head>
+
 <body>
-    <input type="checkbox" id="active">
-    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-    <div class="gang">
-      <ul>
-<li><a href="./index.html">Accueil</a></li>
-<li> <a href="./profile.html"> profil</a></li>
-<li><a href="./BTS.html">BTS SIO</a></li>
-<li><a href="./ecole.html">Ecole</a></li>
-<li><a href="./entreprise.html">Entreprise</a></li>
-<li><a href="./tec.html">Veille Technologique</a></li>
 
-</ul>
-</div>
-
-<div class="wrapper">
-    <figure class="card">
-      <img
-        src="./Photo de profil.png"
-        width="640"
-        height="640"
-        alt=""
-      />
-      <figcaption>
-        <blockquote>
-        Marchand Erwan 
-        Portfollio
-        </blockquote>
-        <cite
-          >Bonjour je suis Marchand Erwan et voici mon Portfollio.</cite
-        >
-          
+   
+<body>
+   
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
         
-    </figcaption>
-    </figure>
-  </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <div class="icons">
-   <a href="https://github.com/Erwanipssi"> <img class="git" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></a> 
-   <a href="https://www.linkedin.com/in/erwan-marchand-44b0b9254/"> <img class="linke" src="https://cdn.icon-icons.com/icons2/1558/PNG/512/353425-linkedin-logo_107480.png" alt="">  </a>
-   <a href=""> <img class="mail" src="icons8-gmail-100.png" alt="">  </a>
-   <p>erwanmarch@gmail.com</p>
-  </div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="content">
+                <div class="title">
+                    <h1>Marchand Erwan</h1>
+                    <p>Je suis Erwan Marchand, étudiant en BTS SIO option SLAM, futur développeur full stack</p>
+                </div>
+                <a href="./marchand-erwan-cv (1).pdf" target="_blank" download="cv.pdf">
+                <button class="contactButton">
+                    Download CV
+                    <div class="iconButton">
+                      <svg
+                        height="24"
+                        width="24"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </a>
+                <div class="rounded-div">
+                    <img src="./pngegg (3).png" alt="Votre Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="info-div" id="about">
+
+        <h1>A propos de moi</h1>
+        <img src="./etudiant.png" alt="Votre Image">
+        <p> bonjour, je m'apelle Erwan Marchand et je suis étudiant en BTS SIO option SLAM. <br>
+            j'ai effectué un bac Générale option SES et Histoire Géopolitique, <br>
+            suite à cela j'ai effectué une année en ecole de droit tout en travaillant les étés sur les chantier <br>
+            je me suis orienter en BTS SIO dans le but d'obtenir mon diplome et de continuer mes etudes en Cyber Sécurité.</p>
+            
+    </div>
+
+    <div class="Compétences" id="services">
+    <h1>Competences </h1>
+</div>
+    <div class="content-card">
+        
+        <div class="card">
+            <img src="./icons8-html-5-90.png" alt="Image 1">
+            <h2>HTML/CSS</h2>
+        </div>
+        <div class="card">
+            <img src="./icons8-battement-48.png" alt="Image 2">
+            <h2>FLutter</h2>
+        </div>
+        <div class="card">
+            <img src="./icons8-java-script-64.png" alt="Image 3">
+            <h2>Java Script</h2>
+        </div>
+        <div class="card">
+            <img src="./icons8-php-64.png" alt="Image 3">
+            <h2>PHP</h2>
+        </div>
+        <div class="card">
+            <img src="./icons8-réagir-90.png" alt="Image 3">
+            <h2>React</h2>
+        </div>
+        <div class="card">
+            <img src="./icon1.png" alt="Image 3">
+            <h2>Github</h2>
+        </div>
+        <div class="card">
+            <img src="./icons8-nodejs-32.png" alt="Image 3">
+            <h2>Node</h2>
+        </div>
+        </div>
+
+        <div class="projet-div" id="portfolio">
+            <h1>Entreprises</h1>
+            <div class="images-container">
+                <img src="./humenrecrut.jpg" alt="Humen Recrut">
+                <img src="./Logo_du_Ministère_de_l'Intérieur_(2020).svg.png" alt="Ministère de l'Intérieur">
+            </div>
+            <p>
+                Durant la période du BTS SIO, j'ai eu l'occasion d'acquérir de l'expérience en entreprise. 
+                <br>
+                Lors d'un stage en entreprise durant ma première année dans l'entreprise Humen Recrut, <br>
+                 j'ai effectué des missions de design et de développement web en HTML/CSS et PHP. 
+                <br>
+                Et lors de ma deuxième année au ministère de l'Intérieur, <br> j'effectue une mission de création d'application dans le but d'améliorer et de faciliter le quotidien des agents.
+            </p>
+        </div>
+
+        <div class="synthese">
+            <h1>Mes Projets</h1>
+            <a href="./projet/Tableau de synth├йses Marchand Erwan.xlsx" target="_blank" download="tableausynthese.xlsx">
+                <button class="contactButton">
+                    Tableau de synthese
+                    <div class="iconButton">
+                      <svg
+                        height="24"
+                        width="24"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </a>
+        </div>
+       
+        <div class="projet">
+
+            
+            <div class="card2">
+                <h2>GLPI</h2>
+                <a href="./projet/GLPI TP ERWAN (1).pdf" target="_blank" download="glpi.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Bilbioteque en ligne</h2>
+                <a href="./projet/docSLAM.pdf" target="_blank" download="Bilbioteque.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>AP1</h2>
+                <a href="./EyeSharev2Effects (3).pptx" target="_blank" download="EyeShare.pptx">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>AP2</h2>
+                <a href="./projet/ap2 (2) (1).odp" target="_blank" download="cv.odp">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Doc inventaire</h2>
+                <a href="./projet/Inventaire_complet.xlsx" target="_blank" download="inventaire.xlsx">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Doc AP3</h2>
+                <a href="./Doc AP3.pdf" target="_blank" download="ap3.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Doc AP4</h2>
+                <a href="./documentation AP4.pdf" target="_blank" download="ap4.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Humen Recrut</h2>
+                <a href="./projet/STage erwan Marchand.pdf" target="_blank" download="stage.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Ministère de L'interieur </h2>
+                <a href="./marchand-erwan-cv (1).pdf" target="_blank" download="entreprise.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card2">
+                <h2>Deploiement AP3</h2>
+                <a href="./projet/TP-deploiement-ap3.odt" target="_blank" download="deploiement.odt">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+           
+        </div>
+
+        <div class="titleveille">
+            <h1>Veilles Technologiques</h1>
+        </div>
+
+        <div class="veille" id="contact">
+
+            
+            <div class="card3">
+                <h2>Veille 1</h2>
+                <a href="./prof/Veille Techno 1.pdf" target="_blank" download="veille1.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card3">
+                <h2>outil veilles</h2>
+                <a href="./prof/outils techno1.pdf" target="_blank" download="outil.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+            <div class="card3">
+                <h2>veille2</h2>
+                <a href="./prof/veille juridique 2.pdf" target="_blank" download="veille2.pdf">
+                    <button>Voir plus</button>
+                    </a>
+            </div>
+        
+           
+        </div>
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
 </body>
 </html>
