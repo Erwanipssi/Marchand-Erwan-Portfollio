@@ -24,7 +24,7 @@ prev.onclick = function(){
 
 let refreshInterval = setInterval(() => {
     next.click();
-}, 3000);
+}, 30000000);
 
 function showSlider(){
     let itemActiveOld = document.querySelector('.slider .list .item.active');
